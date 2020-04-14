@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../css/style.css"  />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css"  />
+  <script src="https://kit.fontawesome.com/00fca59a8b.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <title>David ELT coaching</title>
+
+  <!-- Fonctions utilitaires -->
+  <script src="../js/utilities.js"></script>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #3A5199;" >
+        <a class="navbar-brand" href="acceuil.html" style="color: white;">David ELT coaching</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="acceuil.html" style="color: white;" >Acceuil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="qui.html" style="color: white;" >Qui suis je ?</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link " href="programme.html" tabindex="-1" aria-disabled="true" style="color: white;" >Programme</a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link " href="contact.html" tabindex="-1" aria-disabled="true" style="color: white;" >Contact</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+    </header>
+<main>
+
+    <!-- Contact -->
+  <div class="contact">
+  <h1 class="reveal-1">Contact</h1>
+
+  <!-- Formulaires -->
+  <form class="formcont" method="get" action="contact.php">
+
+    <div class="form-group reveal-1">
+      <label for="exampleFormControlInput1" class="reveal-2">Nom (obligatoire)</label>
+      <input type="email" class="form-control reveal-3" id="exampleFormControlInput1" placeholder="Nom" name="nom">
+    </div>
+
+    <div class="form-group reveal-1">
+      <label for="exampleFormControlInput1" class="reveal-2">Adresse Email (obligatoire)</label>
+      <input type="email" class="form-control reveal-3" id="exampleFormControlInput1" placeholder="name@example.com" name="emailad">
+    </div>
+
+
+    <div class="form-group reveal-1">
+      <label for="exampleFormControlTextarea1" class="reveal-2">Votre Message</label>
+      <textarea class="form-control reveal-3 " id="exampleFormControlTextarea1" rows="3" name="contactme"></textarea>
+    </div>
+  </form>
+  </div>
+</main>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footerflex">
+      <div id="footerleft">
+        <h3>Mes Reseaux</h3>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
+        <a href="#">  <i class="fab fa-facebook"></i></a>
+      </div>
+      <div id="ml">
+        <a href="#">Mentions Legales</a>
+        <br>
+        <br>
+        <a href="#">CGU</a>
+      </div>
+      <div id="footerright">
+        <h3>Newsletter</h3>
+        <p>Inscrit toi je t'envoie des tonnes de conseille muscu !</p>
+        <form class="" action="index.html" method="post">
+          <input type="email" name="email" value="Ton mail ici !">
+          <input type="submit" name="Newsletter" value="GO">
+
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/carrousel.js"></script>
+  <script src="../js/scrollspy.js"></script>
+
+</body>
+</html>

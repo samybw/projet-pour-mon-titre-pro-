@@ -1,0 +1,285 @@
+
+main
+{
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/*cARROUSEL*/
+.carrousel
+{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 40px;
+  background-color: #F7FFF7;
+  color: #343434;
+}
+
+.carrousel img
+{
+    vertical-align: middle;
+    border-style: none;
+    width: 600px;
+    height: 600px;
+  }
+
+legend
+{
+  font-size: 50px;
+}
+figcaption
+{
+  font-weight: 900;
+    font-size: 35px;
+    color: #3A5199;
+
+}
+
+
+
+/*Presentation*/
+.presentation img
+{
+
+  width: 25%;
+  float: right;
+  clear: both;
+  padding-left: 20px;
+  padding-top: 50px
+
+}
+.color
+{
+   background-color: #3A5199;
+}
+.presentation
+{
+  text-align: center;
+margin: auto 50px;
+ padding-bottom: 13%;
+ background-color: #3A5199;
+ color: white;
+
+}
+.presentation h1
+{
+  padding-top: 25px;
+  margin-bottom: 5%;
+}
+.presentation h4
+{
+  margin-bottom: 5%;
+}
+.Programme
+{
+  padding-top: 25px;
+    clear: both;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+ /*  color: #F7FFF7;
+  background-color: #343434;*/
+  background-color: white;
+  color:  #3A5199;
+  padding-bottom: 40px;
+}
+.Programme h2
+{
+    color:  #3A5199;
+}
+
+.Programme a
+{
+  color:  #3A5199;
+}
+.Programmeun
+{
+  width: 25%;
+}
+.Programmedeux
+{
+  width: 25%;
+}
+.Programmetrois
+{
+  width: 25%;
+}
+.fas
+{
+  padding:20px;
+  font-size: 60px;
+}
+
+
+
+
+/* qui suis je */
+.bioimg
+{
+  float: left;
+  padding: 30px 30px;
+}
+.biotext
+{
+
+ padding-top: 3%;
+
+}
+.biotext h1,h3
+{
+  color: #3A5199;
+}
+
+.vision h1
+{
+  color: #3A5199;
+}
+
+
+
+
+/* programme */
+.pageprog h1
+{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.pageprog h1,h2
+{
+  color:  #3A5199;
+}
+.pageprog h2
+{
+  text-align: center;
+}
+.prestation img
+{
+  float: left;
+  margin: 25px;
+}
+.prestation p
+{
+  padding-top: 45px;
+}
+.prixpro
+{
+  clear: both;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.prixachat
+{
+  padding: 50px 75px;
+  background: #3A5199;
+  margin-bottom: 80px;
+  border-radius: 25%;
+  color: white;
+}
+.prixachat h3
+{
+  color: white;
+}
+.prixachat a
+{
+  color: white;
+}
+.prixachat a:hover
+{
+  color: white;
+}
+
+
+
+/* contact */
+.formcont
+{
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+padding-top: 25px;
+padding-bottom: 50px;
+}
+.contact h1
+{
+  color:   #3A5199;
+}
+label
+{
+  color:   #3A5199;
+}
+
+/* scrollspy */
+[class*="reveal-"]
+{
+   opacity: 0;
+   transform: translateY(-30px);
+}
+.reveal-visible
+{
+  opacity: 1;
+  transform: translateY(0);
+  transition: .9s cubic-bezier(.5, 0 ,0 ,1);
+}
+
+.reveal-2
+{
+  transition-delay: .2s;
+}
+
+.reveal-3
+{
+  transition-delay: .3s;
+}
+.reveal-4
+{
+  transition-delay: .4s;
+}
+
+
+
+
+/* Footer */
+footer
+{
+  background-color: #D5D6D2;
+  display: flex;
+  padding-top: 25px;
+  clear: both;
+}
+footer h3
+{
+  color: #2F2E33;
+}
+footer p
+{
+    color: #2F2E33;
+}
+footer a
+{
+    color: #2F2E33;
+}
+
+.footerflex
+{
+  display: flex;
+  justify-content: space-between;
+}
+#footerleft
+{
+  width: 25%;
+}
+#footerright
+{
+  width: 25%;
+}
+.fab
+{
+padding:20px;
+border-radius:30%;
+font-size: 80px;
+}
